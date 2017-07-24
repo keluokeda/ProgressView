@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressView">
+        <attr name="radius" format="dimension"/><!--半径-->
+        <attr name="progressWidth" format="dimension"/><!--画笔宽度-->
+        <attr name="circleColor" format="color"/><!--内圆颜色-->
+        <attr name="progressColor" format="color"/><!--进度条颜色-->
+        <attr name="maxProgress" format="integer"/><!--总进度-->
+        <attr name="progress" format="integer"/><!--当前进度-->
+        <attr name="contentPadding" format="dimension"/><!--内边距-->
+    </declare-styleable>
+
+</resources>
